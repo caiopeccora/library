@@ -12,7 +12,8 @@ while True:
     print("3 - Remove book")
     print("4 - Show available books")
     print("5 - Show all books")
-    print("6 - Exit")
+    print("6 - Quantity of books")
+    print("7 - Exit")
 
     option = input("Option: ")
 
@@ -62,6 +63,10 @@ while True:
             print(book)
 
     elif option == "6":
+
+        print(f"Total books: {len(library.books)}")
+
+    elif option == "7":
 
         print("Ending system.")
         break

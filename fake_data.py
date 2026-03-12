@@ -84,6 +84,6 @@ def loading_library_books():
             )
 
             library.add_book(book)
-            book_id += 1
+            book_id = random.randint(0, 100000)
 
     return library
